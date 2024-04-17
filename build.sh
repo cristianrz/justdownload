@@ -9,17 +9,17 @@ set -eu
 	echo '| --- | --- | --- |'
 	awk -F';' '{ print "| " $1 " | [" $2 "](" $3 ") | " $4 " | " }' apps.csv
 	echo
-} > ./README.md 
+} >./README.md
 
 # build docs/
+mkdir -p docs/
 rm docs/*
 cp README.md docs/index.md
 awk -F';' '
 	{
 		gsub(/ /, "-", $1)
 		$1 = tolower($1);
-		file = "docs/" $1 ".html"
+		file = "docs/" $1 ".md"
 		print "[" $2 "](" $3 ")" > file
 	}
 ' apps.csv
-
