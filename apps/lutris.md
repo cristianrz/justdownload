@@ -1,1 +1,1 @@
-[`flatpak install flathub net.lutris.Lutris`]()
+[`flatpak install flathub net.lutris.Lutris`](#)

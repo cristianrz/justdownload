@@ -1,1 +1,1 @@
-[`flatpak install com.usebottles.bottles`]()
+[`flatpak install com.usebottles.bottles`](#)

@@ -1,1 +1,1 @@
-[`flatpak install org.gnome.Boxes`]()
+[`flatpak install org.gnome.Boxes`](#)

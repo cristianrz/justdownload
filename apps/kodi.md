@@ -1,1 +1,1 @@
-[`flatpak install tv.kodi.Kodi`]()
+[`flatpak install tv.kodi.Kodi`](#)

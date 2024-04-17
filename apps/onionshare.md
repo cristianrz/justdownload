@@ -1,1 +1,1 @@
-[`flatpak install org.onionshare.OnionShare`]()
+[`flatpak install org.onionshare.OnionShare`](#)

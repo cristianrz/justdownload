@@ -1,1 +1,1 @@
-[`flatpak install org.mozilla.Thunderbird`]()
+[`flatpak install org.mozilla.Thunderbird`](#)
