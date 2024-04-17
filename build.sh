@@ -27,7 +27,7 @@ gawk --lint=fatal  -F';' '
 		gsub(/ /, "-", $1)
 		$1 = tolower($1);
 		file = "docs/" $1 ".md"
-		print "[" $2 "](" $3 ")" > file
+		print "# " $1 "\n[" $2 "](" $3 ")" > file
 		close(file)
 	}
 ' apps.csv

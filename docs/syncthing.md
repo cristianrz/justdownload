@@ -1,1 +1,2 @@
+# syncthing
 [Native package manager]()

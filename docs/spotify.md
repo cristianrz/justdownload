@@ -1,1 +1,2 @@
+# spotify
 [`snap install spotify`]()
