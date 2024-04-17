@@ -1,7 +1,7 @@
 Audacity;AppImage;https://www.audacityteam.org/;
 bitwarden;AppImage;https://bitwarden.com/download/#downloads-desktop;
-Bottles;`flatpak install com.usebottles.bottles`;#
-Boxes;`flatpak install org.gnome.Boxes`;#
+Bottles;`flatpak install com.usebottles.bottles`;#;
+Boxes;`flatpak install org.gnome.Boxes`;#;
 Brave Browser;apt, dnf, zypper;https://brave.com/linux/;
 Caddy;Binary;https://caddyserver.com/download;
 Chromium;N/A;;[There doesn't seem to be any official stable build](https://www.chromium.org/getting-involved/download-chromium/)

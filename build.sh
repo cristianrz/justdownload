@@ -18,7 +18,7 @@ awk -F';' '
 	{
 		gsub(/ /, "-", $1)
 		$1 = tolower($1);
-		file = "docs/" $1 ".txt"
+		file = "docs/" $1 ".html"
 		print "[" $2 "](" $3 ")" > file
 	}
 ' apps.csv
