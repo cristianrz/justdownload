@@ -23,6 +23,16 @@ The rules are:
 Where the developer offers multiple recommended options, the main one is listed
 here.
 
+## How to use
+
+Either use the table below or go to
+
+```
+https://justdownload.duckdns.org/[APP-NAME]
+# e.g.
+https://justdownload.duckdns.org/keepassxc
+```
+
 ## List
 
 | App | Method | Comments |
