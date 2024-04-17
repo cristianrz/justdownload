@@ -9,12 +9,16 @@ The main reasons for this are:
 - Increase security by reducing the number of 3rd parties involved.
 
 The rules are:
+
 - If there is more than one recommended option, choose the highlighted one
   (developers will usually put, for example, a big button for Flatpak and small
   button for `deb` and `rpm`.
 - If there is not any recommended option (e.g. multiple GitHub releases) choose
   the most universal one.
 - Never use community-maintained packages
+- If the first recommended option is only valid for one distro, it is only
+  valid for one distro. This generally means the developer tests specifically
+  for that distro.
 
 Where the developer offers multiple recommended options, the main one is listed
 here.
@@ -29,6 +33,7 @@ here.
 | Boxes | `flatpak install org.gnome.Boxes` | |
 | Brave Browser | [apt, dnf, zypper](https://brave.com/linux/) | |
 | Caddy | [Binary](https://caddyserver.com/download) | |
+| Chromium | N/A | [There doesn't seem to be any official stable build](https://www.chromium.org/getting-involved/download-chromium/) |
 | CPU-X | [AppImage](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases) | |
 | Discord | [deb, tgz](https://discord.com/download) | |
 | Distrobox | Native package manager | |
@@ -91,3 +96,5 @@ here.
 | WPS | [deb, rpm](https://www.wps.com/) | |
 | Yubico Authenticator | [Binary](https://support.yubico.com/hc/en-us/articles/360016649039-Installing-Yubico-Software-on-Linux#01H30DBXGWDFNCT6N90Z5K8WN3) | | 
 | YubiKey Manager | [AppImage](https://support.yubico.com/hc/en-us/articles/360016649039-Installing-Yubico-Software-on-Linux#01H30DBXGX5RDD4AM7M815GAA3) | |
+| Spotify | `snap install spotify` | |
+
