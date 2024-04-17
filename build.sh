@@ -9,10 +9,11 @@ set -eu
 	echo '| --- | --- | --- |'
 	awk -F';' '{ print "| " $1 " | [" $2 "](" $3 ") | " $4 " | " }' apps.csv
 	echo
-} > README.md
+} > ./README.md 
 
 # build apps/
 rm apps/*
+cp README.md apps/index.md
 awk -F';' '
 	{
 		gsub(/ /, "-", $1)
