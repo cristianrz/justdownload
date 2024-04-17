@@ -1,8 +1,71 @@
 # Just download
 
+Repository of links to download Linux applications the way the developer
+recommends it.
+
+The main reasons for this are:
+
+- Minimise the number of bugs and problems encountered.
+- Increase security by reducing the number of 3rd parties involved.
+
+The rules are:
+- If there is more than one recommended option, choose the highlighted one
+  (developers will usually put, for example, a big button for Flatpak and small
+  button for `deb` and `rpm`.
+- If there is not any recommended option (e.g. multiple GitHub releases) choose
+  the most universal one.
+- Never use community-maintained packages
+
+Where the developer offers multiple recommended options, the main one is listed
+here.
+
+## List
+
 | Application | Download | Comments |
 | ---         | ---      | ---      |
+| Audacity | [AppImage](https://www.audacityteam.org/) | |
+| bitwarden | [AppImage](https://bitwarden.com/download/#downloads-desktop) | |
+| Boxes | `flatpak install org.gnome.Boxes` | |
 | Brave Browser | [apt, dnf, zypper](https://brave.com/linux/) | |
+| CPU-X | [AppImage](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases) | |
+| Discord | [deb, tgz](https://discord.com/download) | |
+| Distrobox | Native package manager | |
+| Docker Engine | [Distro-dependent](https://docs.docker.com/engine/install/) | |
+| FileZilla | [.tar.xz](https://filezilla-project.org/download.php?platform=linux64) | |
+| Firefox | `apt/dnf/zypper install firefox` | |
+| GIMP | `flathub install org.gimp.GIMP` | |
+| Go | [.tar.gz](https://go.dev/dl/) | |
+| Inkscape | [AppImage](https://inkscape.org/release/)
+| Joplin | [AppImage](https://joplinapp.org/help/install/) | |
+| Kdenlive | [AppImage](https://kdenlive.org/en/download/) | |
 | KeePassXC | [AppImage](https://keepassxc.org/download/#linux) | |
+| Kodi | `flatpak install tv.kodi.Kodi` | |
+| Krita | [AppImage](https://krita.org/en/download/) | |
 | LibreOffice | [deb, rpm](https://www.libreoffice.org/download/download-libreoffice/) | |
+| LibreWolf | [Distro-dependent](https://librewolf.net/installation/) | |
+| Lutris | `flatpak install flathub net.lutris.Lutris` | |
 | Nextcloud Desktop | [AppImage](https://nextcloud.com/install/) | |
+| OBS Studio | `flatpak install com.obsproject.Studio` | |
+| Obsidian | [AppImage](https://obsidian.md/) | |
+| Okular | Native package manager | |
+| Parsec | [.deb](https://parsec.app/downloads) | |
+| Podman | Native package manager | |
+| Proton VPN | [Distro-dependent](https://protonvpn.com/support/linux-vpn-setup/) | |
+| ProtonMail Bridge | [deb, rpm, PKGBUILD](https://proton.me/mail/bridge) | |
+| qBittorrent | [AppImage](https://www.fosshub.com/qBittorrent.html) | |
+| Radarr | [Distro-dependent](https://radarr.video/#downloads-linux) | |
+| Raspberry Pi Imager | [.deb](https://www.raspberrypi.com/software/) | |
+| Rclone | [.zip](https://rclone.org/downloads/) | |
+| Signal Desktop | [Distro-dependent](https://signal.org/download/#) | | 
+| Sonarr | [curl to bash](https://sonarr.tv/#downloads-linux) | Official is only Debian & Ubuntu | 
+| Steam | [deb](https://store.steampowered.com/about/) | |
+| Telegram | [.tar.xz](https://desktop.telegram.org/) | |
+| Thunderbird | `flatpak install org.mozilla.Thunderbird` | |
+| Tor Browser | [.tar](https://www.torproject.org/download/) | |
+| Transmission | [.tar.xz](https://transmissionbt.com/download) | |
+| VirtualBox | [Distro-dependent](https://www.virtualbox.org/wiki/Linux_Downloads) | |
+| VLC | [Distro-dependent](https://www.videolan.org/vlc/#download) | |
+| VSCodium | [deb, rpm](https://github.com/VSCodium/vscodium/releases) | |
+| Waydroid | [Distro-dependent](https://docs.waydro.id/usage/install-on-desktops) | |
+| WPS | [deb, rpm](https://www.wps.com/) | |
+
