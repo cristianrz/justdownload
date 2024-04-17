@@ -11,14 +11,14 @@ set -eu
 	echo
 } > ./README.md 
 
-# build apps/
-rm apps/*
-cp README.md apps/index.md
+# build docs/
+rm docs/*
+cp README.md docs/index.md
 awk -F';' '
 	{
 		gsub(/ /, "-", $1)
 		$1 = tolower($1);
-		file = "apps/" $1 ".md"
+		file = "docs/" $1 ".txt"
 		print "[" $2 "](" $3 ")" > file
 	}
 ' apps.csv
