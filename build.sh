@@ -7,7 +7,14 @@ set -eu
 	cat header.md
 	echo '| App | Method | Comments |'
 	echo '| --- | --- | --- |'
-	awk -F';' '{ print "| " $1 " | [" $2 "](" $3 ") | " $4 " | " }' apps.csv
+	gawk --lint=fatal  -F';' '{
+		if ( NF < 4 ) $4 = ""
+		if ( $3 != "#" && $3 != "" ) {
+			print "| " $1 " | [" $2 "](" $3 ") | " $4 " | "
+		} else {
+			print "| " $1 " | " $2 " | " $4 " | " 
+		}
+	}' apps.csv
 	echo
 } >./README.md
 
@@ -15,11 +22,12 @@ set -eu
 mkdir -p docs/
 rm docs/*.md
 cp README.md docs/index.md
-awk -F';' '
+gawk --lint=fatal  -F';' '
 	{
 		gsub(/ /, "-", $1)
 		$1 = tolower($1);
 		file = "docs/" $1 ".md"
 		print "[" $2 "](" $3 ")" > file
+		close(file)
 	}
 ' apps.csv
