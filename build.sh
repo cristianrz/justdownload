@@ -13,7 +13,7 @@ set -eu
 
 # build docs/
 mkdir -p docs/
-rm docs/*
+rm docs/*.md
 cp README.md docs/index.md
 awk -F';' '
 	{
