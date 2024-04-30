@@ -58,6 +58,7 @@ https://justdownload.duckdns.org/keepassxc
 | Firefox | `apt/dnf/zypper install firefox` |  | 
 | GIMP | `flathub install org.gimp.GIMP` |  | 
 | Go | [.tar.gz](https://go.dev/dl/) |  | 
+| Google Chrome | [deb/rpm](https://www.google.com/intl/en_us/chrome/) |  | 
 | Heimdall | [git clone](https://github.com/linuxserver/Heimdall?tab=readme-ov-file#installing) |  | 
 | Inkscape | [AppImage](https://inkscape.org/release/)) |  | 
 | Jackett | [Command](https://github.com/Jackett/Jackett?tab=readme-ov-file#install-as-service) |  | 
