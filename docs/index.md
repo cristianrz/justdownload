@@ -48,7 +48,7 @@ https://justdownload.duckdns.org/keepassxc
 | Boxes | `flatpak install org.gnome.Boxes` |  | 
 | Brave Browser | [apt, dnf, zypper](https://brave.com/linux/) |  | 
 | Caddy | [Binary](https://caddyserver.com/download) |  | 
-| Chromium | N/A | [There doesn't seem to be any official stable build](https://www.chromium.org/getting-involved/download-chromium/) | 
+| Chromium | [Binary](https://download-chromium.appspot.com/) |  | 
 | CPU-X | [AppImage](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases) |  | 
 | Discord | [deb, tgz](https://discord.com/download) |  | 
 | Distrobox | Native package manager |  | 
