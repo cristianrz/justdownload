@@ -41,6 +41,7 @@ https://justdownload.duckdns.org/keepassxc
 
 | App | Method | Comments |
 | --- | --- | --- |
+| AdGuard Home | [Binary](https://adguard-dns.io/kb/adguard-home/getting-started/) |  | 
 | Audacity | [AppImage](https://www.audacityteam.org/) |  | 
 | bitwarden | [AppImage](https://bitwarden.com/download/#downloads-desktop) |  | 
 | Bottles | `flatpak install com.usebottles.bottles` |  | 
@@ -93,6 +94,7 @@ https://justdownload.duckdns.org/keepassxc
 | Rclone | [.zip](https://rclone.org/downloads/) |  | 
 | Signal Desktop | [Distro-dependent](https://signal.org/download/#) |   | 
 | Sonarr | [curl to bash](https://sonarr.tv/#downloads-linux) | Official is only Debian & Ubuntu | 
+| Spotify | `snap install spotify` |  | 
 | Steam | [deb](https://store.steampowered.com/about/) |  | 
 | Syncthing | Native package manager |  | 
 | Tautulli | `sudo snap install tautulli` |  | 
@@ -100,8 +102,8 @@ https://justdownload.duckdns.org/keepassxc
 | Thunderbird | `flatpak install org.mozilla.Thunderbird` |  | 
 | Tor Browser | [.tar](https://www.torproject.org/download/) |  | 
 | Transmission | [.tar.xz](https://transmissionbt.com/download) |  | 
-| VirtualBox | [Distro-dependent](https://www.virtualbox.org/wiki/Linux_Downloads) |  | 
 | Vim | [Appimage](https://github.com/vim/vim-appimage/releases) |  | 
+| VirtualBox | [Distro-dependent](https://www.virtualbox.org/wiki/Linux_Downloads) |  | 
 | VLC | [Distro-dependent](https://www.videolan.org/vlc/#download) |  | 
 | VSCodium | [deb, rpm](https://github.com/VSCodium/vscodium/releases) |  | 
 | Waydroid | [Distro-dependent](https://docs.waydro.id/usage/install-on-desktops) |  | 
@@ -111,5 +113,4 @@ https://justdownload.duckdns.org/keepassxc
 | WPS | [deb, rpm](https://www.wps.com/) |  | 
 | Yubico Authenticator | [Binary](https://support.yubico.com/hc/en-us/articles/360016649039-Installing-Yubico-Software-on-Linux#01H30DBXGWDFNCT6N90Z5K8WN3) |   | 
 | YubiKey Manager | [AppImage](https://support.yubico.com/hc/en-us/articles/360016649039-Installing-Yubico-Software-on-Linux#01H30DBXGX5RDD4AM7M815GAA3) |  | 
-| Spotify | `snap install spotify` |  | 
 
