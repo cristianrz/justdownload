@@ -5,7 +5,7 @@ Bottles;`flatpak install com.usebottles.bottles`;#;
 Boxes;`flatpak install org.gnome.Boxes`;#;
 Brave Browser;apt, dnf, zypper;https://brave.com/linux/;
 Caddy;Binary;https://caddyserver.com/download;
-Chromium;Binary;https://download-chromium.appspot.com/;
+Chromium;Binary;https://download-chromium.appspot.com/;⚠️ Chromium installed by the native package manager tends to have MAC policies
 CPU-X;AppImage;https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases;
 Discord;deb, tgz;https://discord.com/download;
 Distrobox;Native package manager;
