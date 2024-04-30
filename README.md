@@ -101,6 +101,7 @@ https://justdownload.duckdns.org/keepassxc
 | Tor Browser | [.tar](https://www.torproject.org/download/) |  | 
 | Transmission | [.tar.xz](https://transmissionbt.com/download) |  | 
 | VirtualBox | [Distro-dependent](https://www.virtualbox.org/wiki/Linux_Downloads) |  | 
+| Vim | [Appimage](https://github.com/vim/vim-appimage/releases) |  | 
 | VLC | [Distro-dependent](https://www.videolan.org/vlc/#download) |  | 
 | VSCodium | [deb, rpm](https://github.com/VSCodium/vscodium/releases) |  | 
 | Waydroid | [Distro-dependent](https://docs.waydro.id/usage/install-on-desktops) |  | 
