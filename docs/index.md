@@ -56,6 +56,7 @@ https://justdownload.duckdns.org/keepassxc
 | drawio | [AppImage](https://github.com/jgraph/drawio-desktop/releases/) |  | 
 | FileZilla | [.tar.xz](https://filezilla-project.org/download.php?platform=linux64) |  | 
 | Firefox | `apt/dnf/zypper install firefox` |  | 
+| FSearch | [Distro-dependent](https://github.com/cboxdoerfer/fsearch?tab=readme-ov-file#download) |  | 
 | GIMP | `flathub install org.gimp.GIMP` |  | 
 | Go | [.tar.gz](https://go.dev/dl/) |  | 
 | Google Chrome | [deb/rpm](https://www.google.com/intl/en_us/chrome/) |  | 
