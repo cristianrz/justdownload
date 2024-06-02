@@ -79,6 +79,7 @@ https://justdownload.duckdns.org/keepassxc
 | Nextcloud Server | [Docker](https://github.com/nextcloud/all-in-one?tab=readme-ov-file#how-to-use-this) |  | 
 | nginx | [.tar.gz](https://nginx.org/en/download.html) |  | 
 | Node.js | [.tar.xz](https://nodejs.org/en) |  | 
+| Notesnook | [AppImage](https://notesnook.com/downloads/) |  | 
 | OBS Studio | `flatpak install com.obsproject.Studio` |  | 
 | Obsidian | [AppImage](https://obsidian.md/) |  | 
 | Okular | Native package manager |  | 

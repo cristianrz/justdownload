@@ -31,3 +31,5 @@ gawk --lint=fatal  -F';' '
 		close(file)
 	}
 ' apps.csv
+
+echo 'Done.'
